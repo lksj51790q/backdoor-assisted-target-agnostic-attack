@@ -35,6 +35,7 @@ To train the backdoor model:<br>
 ```
 python train_backdoor.py
 ```
+These training programs can distribute training across multiple GPUs.
 
 ### Check How Many Patterns Are Successfully Trained
 This will print the number of successfully trained patterns and the mean value they trigger the target neurons and record the information at the file.<br>
